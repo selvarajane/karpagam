@@ -5,8 +5,6 @@
 @font-face{font-family:'font-awesome';src:url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf');src:url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'),url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'),url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'),url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg')}
 body{font-family:"Times New Roman", Times, serif;font-weight:normal;color:rgb(0 0 0 / 89%);font-size:15px;/* background-image:url(../images/logo/pattan.png) */background:#dddddd3b}
 body .main-page-wrapper{overflow-x:hidden}
-*{box-sizing:border-box}
-img{max-width:100%;height:auto;display:block}
 h1,h2,h3,h4,h5,h6,p,ul{margin:0;padding:0}
 h1,h2,h3,h4,h5,h6{font-family:'Noto Sans',sans-serif;color:#151515}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:inherit}
@@ -461,11 +459,10 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display:none}
 .address1 a{color:#000!important}
 .tableresponstive{width:60%;margin-left:10%;margin-top:20px;margin-bottom:20px}
 .tableresponstive1{width:60%;margin-left:10%;margin-top:20px;margin-bottom:20px}
-.logo img{width:90%;padding:8px;max-width:120px;height:auto;}
-.whatsAppIcon{position:fixed;bottom:70px;z-index:99;right:10px;transition:all 0.3s ease;}
+.logo img{width:90%;padding:8px;}
+.whatsAppIcon{position:fixed;bottom:70px;z-index:99;right:10px;}
 .chatTextButton{color: #fff;margin-left: 5px;}
-.whatsAppIcon img{width:100%;max-width:60px;height:auto;margin-top:-4px;display: inline;transition:transform 0.3s ease;}
-.whatsAppIcon:hover img{transform:scale(1.1);}
+.whatsAppIcon img{width:100%;margin-top:-4px;display: inline;}
 .branches{text-align:center;margin-bottom:13px;font-size:20px}
 .branches span{font-size:14px}
 .button1{border-radius:10px;line-height:27px;padding:0 15px;margin-left:10px;border:0;background:#fff;float:left;margin-bottom:5px;margin-top:5px}
@@ -1091,45 +1088,3 @@ header .header-wrapper{padding:30px 0 18px 0!important}
   color: #401117;
 }
 .plan1 .faq{background: #fff;}
-
-/* Additional Responsive Enhancements */
-.container{width:100%;max-width:1200px;margin:0 auto;padding-left:15px;padding-right:15px}
-.row{margin-left:-15px;margin-right:-15px;display:flex;flex-wrap:wrap}
-.row:after{content:"";display:table;clear:both}
-[class*="col-"]{padding-left:15px;padding-right:15px;position:relative;min-height:1px}
-
-/* Touch-friendly elements for mobile */
-@media(max-width:767px){
-a,button,input,textarea{-webkit-tap-highlight-color:rgba(0,0,0,0.1)}
-button,input[type="submit"],input[type="button"]{min-height:44px;min-width:44px}
-.theme-button-one{padding:12px 30px;font-size:16px}
-#mega-menu-wrapper .nav>li>a{padding:12px 15px;font-size:15px}
-}
-
-/* Better image responsiveness */
-.banner img,.theme-inner-banner img,.our-service .single-service img{width:100%;height:auto;object-fit:cover}
-.single-project img,.single-project1 img{width:100%;height:auto}
-
-/* Table responsiveness */
-@media(max-width:767px){
-.tableresponstive,.tableresponstive1{width:100%;margin-left:0;margin-right:0;overflow-x:auto;display:block}
-.table_responstiveheader,.table_responstive1,.table_responstive2{font-size:12px!important}
-.table_responstiveheader th,.table_responstive1 td,.table_responstive2 td{padding:6px!important}
-}
-
-/* Better form responsiveness */
-@media(max-width:767px){
-input[type="text"],input[type="email"],input[type="tel"],input[type="number"],textarea,select{width:100%;font-size:16px;padding:12px}
-form .col-md-6{width:100%;margin-bottom:15px}
-}
-
-/* Header logo responsiveness */
-.header-wrapper .logo{display:flex;align-items:center}
-.header-wrapper .logo img{max-width:100px;height:auto}
-
-/* Footer responsiveness */
-@media(max-width:767px){
-.theme-footer .top-footer [class*="col-"]{margin-bottom:25px;text-align:center}
-.theme-footer address{text-align:center}
-.theme-footer .footer-list ul{text-align:center}
-}
