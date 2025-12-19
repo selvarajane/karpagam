@@ -71,6 +71,14 @@ header .top-header .social-icon li a{margin-left:12px}
 .theme-menu-wrapper .top-header,header .top-header .social-icon{text-align:center}
 header .top-header .call a{margin:15px 0;font-size:14px}
 header .top-header .social-icon li a{margin:0 8px}
+.theme-menu-wrapper1.visible-xs.visible-sm{display:block!important}
+.theme-menu-wrapper1.visible-xs.visible-sm .top-header{text-align:center;padding:8px 0}
+.theme-menu-wrapper1.visible-xs.visible-sm .top-header p{font-size:13px;margin:4px 0;line-height:1.4}
+.theme-menu-wrapper1.visible-xs.visible-sm .top-header a{color:inherit;text-decoration:none;font-size:13px}
+.navbar-header{display:flex;align-items:center;justify-content:space-between;width:100%}
+.navbar-header .logo{display:block!important;flex:0 0 auto}
+.navbar-header .logo img{max-width:70px!important;height:auto!important;padding:5px 0}
+.navbar-toggle{flex:0 0 auto;margin-top:0!important}
 .consultant-banner .theme-button-one{float:none;margin-top:20px}
 .contact-form p br,.theme-title p br{display:none}
 .bottom-banner .theme-button-one{float:none;margin-top:30px}
@@ -110,6 +118,9 @@ header .top-header .social-icon li a{margin:0 8px}
 @media(max-width:650px) {
 #error,#success{width:86%;height:auto;top:calc(50% - 50px);left:7%;padding:30px 10px}
 .header-wrapper .logo img{max-width:50px}
+.theme-menu-wrapper1.visible-xs.visible-sm .top-header p{font-size:12px!important;margin:3px 0!important}
+.theme-menu-wrapper1.visible-xs.visible-sm .top-header a{font-size:12px!important}
+.navbar-header .logo img{max-width:70px!important;height:auto!important}
 .our-service .single-service{height:auto;min-height:180px;padding:15px 10px}
 .our-service .single-service .text h4{font-size:16px;margin-bottom:10px}
 .our-service .single-service .text p{font-size:12px}
